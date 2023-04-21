@@ -1,0 +1,5 @@
+python: "3.10.6"
+build_dependencies:
+  - pip
+dependencies:
+  - -r requirements.txt

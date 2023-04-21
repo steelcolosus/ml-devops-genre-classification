@@ -1,0 +1,4 @@
+pyarrow==11.0.0
+wandb==0.14.2
+mlflow
+pandas==1.5.3
