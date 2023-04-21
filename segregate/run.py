@@ -15,7 +15,7 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project="exercise_6", job_type="split_data")
+    run = wandb.init(job_type="split_data")
 
     logger.info("Downloading and reading artifact")
     artifact = run.use_artifact(args.input_artifact)

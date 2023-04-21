@@ -1,0 +1,15 @@
+artifact_uri: file:///home/eduardo/Projects/ML_DevOps_NG/14_end_to_end_pipeline/mlruns/0/5b68a3291aec41dab919f1866eb28253/artifacts
+end_time: 1682057098252
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b68a3291aec41dab919f1866eb28253
+run_name: intrigued-snipe-896
+run_uuid: 5b68a3291aec41dab919f1866eb28253
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682057097322
+status: 4
+tags: []
+user_id: eduardo

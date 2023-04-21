@@ -1,0 +1,15 @@
+artifact_uri: file:///home/eduardo/Projects/ML_DevOps_NG/14_end_to_end_pipeline/mlruns/0/1255124441a747ed8a7b8abac5316a3d/artifacts
+end_time: 1682058348925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1255124441a747ed8a7b8abac5316a3d
+run_name: learned-squid-816
+run_uuid: 1255124441a747ed8a7b8abac5316a3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682058339161
+status: 3
+tags: []
+user_id: eduardo

@@ -13,7 +13,7 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project="exercise_13", job_type="test")
+    run = wandb.init(job_type="test")
 
     logger.info("Downloading and reading test artifact")
     ## Get the args.test_data artifact from W&B locally

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/eduardo/Projects/ML_DevOps_NG/14_end_to_end_pipeline/mlruns/0/7e516b4e694e449da09de19e42360689/artifacts
+end_time: 1682058050207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e516b4e694e449da09de19e42360689
+run_name: persistent-crow-930
+run_uuid: 7e516b4e694e449da09de19e42360689
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682058034619
+status: 3
+tags: []
+user_id: eduardo
