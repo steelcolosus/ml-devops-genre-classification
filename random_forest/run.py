@@ -101,13 +101,15 @@ def export_model(run, pipe, used_columns, X_val, val_pred, export_artifact):
     with tempfile.TemporaryDirectory() as temp_dir:
 
         export_path = os.path.join(temp_dir, "model_export")
+        
+        input_example_dict = {"dataframe_records": X_val.iloc[:2].to_dict("records")}
 
         mlflow.sklearn.save_model(
             pipe,
             export_path,
             serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
             signature=signature,
-            input_example=X_val.iloc[:2],
+            input_example=input_example_dict,
         )
 
         artifact = wandb.Artifact(
