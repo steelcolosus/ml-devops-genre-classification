@@ -1,0 +1,126 @@
+{
+    "os": "Linux-5.19.0-38-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-04-21T19:43:25.710362",
+    "startedAt": "2023-04-21T19:43:24.772854",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/home/eduardo/.mlflow/envs/mlflow-6ccc0bc7facb83dfce3e286e386503b776a83ecc/bin/pytest",
+    "git": {
+        "remote": "https://github.com/steelcolosus/ml_devops_genre_classification.git",
+        "commit": "993b08f22921cb6f5cf491a44f73f6844cad73db"
+    },
+    "email": "eduardo.aviles@loanpro.io",
+    "root": "/home/eduardo/Projects/ML_DevOps_NG/14_end_to_end_pipeline",
+    "host": "tensorbook",
+    "username": "eduardo",
+    "executable": "/home/eduardo/.mlflow/envs/mlflow-6ccc0bc7facb83dfce3e286e386503b776a83ecc/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2929.1154375000006,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3243.768,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2287.859,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4536.711,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3857.934,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4120.502,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2640.839,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3977.581,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3717.682,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.288,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3190.737,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2991.946,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "total": 915.3232879638672,
+        "used": 250.3299102783203
+    },
+    "memory": {
+        "total": 62.58683395385742
+    }
+}
